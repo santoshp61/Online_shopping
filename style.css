@@ -57,7 +57,7 @@ body {
 .btn {
     width: 100%;
     padding: 0.8rem;
-    background: #6c63ff;
+    background: #db0510;
     color: #ffffff;
     font-size: 1rem;
     border: none;
@@ -68,7 +68,7 @@ body {
 }
 
 .btn:hover {
-    background: #574bfa;
+    background: #690864;
 }
 
 .signup-link {
