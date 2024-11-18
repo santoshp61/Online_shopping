@@ -2,32 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>ONLINE SHOPPING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="login" href="homepage.html">
 </head>
 <body>
-    <img src="image/sea-2561397_640.webp" alt="12">
-<div class="container" id="head">
-    
-    <a href="loading"></a>
-    <section>
-        
-    <h1>Please sign in for process</h1>
-    <br>
-
-     <h3>E-mail:</h3>
-    <input type="email" name="E-mail" id="E-mail">
-    <br>
-    <br>
-    <h3>Pasword:</h3>
-    <input type="number, symbole" name="number, symbole" id="symbole,number">
-    <br>
-    <button>    <a href="homepage.HTML">Login  </a></button>
-</section>
-
-</div>           
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+        </form>
+    </div>
 </body>
 </html>
