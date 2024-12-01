@@ -15,12 +15,6 @@ body {
     background-size: cover;
     
 }
-image{
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: 100%;
-}
 
 .login-container {
     
@@ -35,7 +29,11 @@ image{
     justify-content: center;
     flex-direction: column;
     height: 50vh;
-    max-width: 400px;
+    /* margin-bottom: 15px; */
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 30px;
 }
 
 .login-form h2 {
@@ -53,6 +51,8 @@ image{
     margin-bottom: 0.5rem;
     color: #555;
     font-weight: bold;
+    justify-content: center;
+    
 }
 
 .input-group input {
@@ -74,7 +74,7 @@ image{
     width: 50%;
     padding: 0.8rem;
     /* background: #db0510; */
-    color: #ffffff;
+    background-color: #391ed4;
     font-size: 1rem;
     border: #333;
     border-radius: 30px;
@@ -86,6 +86,9 @@ image{
 
 .homepage a{
     text-decoration: none;
+    color: white;
+    
+
 }
 
    
@@ -96,6 +99,7 @@ image{
 }
 
 .signup-link {
+    
    
     text-align: center;
     margin-top: 1rem;
@@ -104,7 +108,8 @@ image{
 }
 
 .signup-link a {
-    color: #6c63ff;
+   
+  
     text-decoration: none;
     font-weight: bold;
 }
